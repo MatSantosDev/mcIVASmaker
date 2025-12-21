@@ -81,6 +81,14 @@ def img_to_lamps(img: Image.Image, output: str, details: dict):
         else:
             yield value
     yield "Done Processing!"
+    # Apply final resolution if provided
+    final_w = details.get('final_width')
+    final_h = details.get('final_height')
+    if final_w and final_h:
+        try:
+            img = img.resize((int(final_w), int(final_h)), resample=Image.NEAREST)
+        except Exception:
+            pass
     img.save(output)
     img.close()
     yield "Done!"
@@ -125,6 +133,14 @@ def img_to_blocks(img: Image.Image, output: str, details: dict):
         else:
             yield value
     yield "Done Processing!"
+    # Apply final resolution if provided
+    final_w = details.get('final_width')
+    final_h = details.get('final_height')
+    if final_w and final_h:
+        try:
+            img = img.resize((int(final_w), int(final_h)), resample=Image.NEAREST)
+        except Exception:
+            pass
     img.save(output)
     img.close()
     yield "Done!"

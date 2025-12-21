@@ -1,0 +1,32 @@
+2025/12/20 06:49:34PM::root_[  INFO  ] - This is the log console. Most events that take place will be shown here
+2025/12/20 06:49:34PM::root_[ DEBUG  ] - Multiprocessing freeze_support enabled
+2025/12/20 06:49:34PM::root_[ DEBUG  ] - Window instantiated
+2025/12/20 06:50:17PM::src.logic.vid_logic.vid_manager_[  INFO  ] - Cleaned Previous Cache
+2025/12/20 06:50:17PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Video Details:
+2025/12/20 06:50:17PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - FilePath: C:/Users/mathe/Desktop/20703134-hd_1920_1080_30fps.mp4
+2025/12/20 06:50:17PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Output Path: C:/Users/mathe/Desktop/test.mp4
+2025/12/20 06:50:17PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Manupilations: Video To Redstone Lamps Video
+2025/12/20 06:50:17PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scale: 1x
+2025/12/20 06:50:17PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Details: {'blocklist': [], 'mode': 'None', 'quality': False, 'frame_rate': 60.0, 'dither': False, 'alternate': False, 'color_set': ['Linear Average'], 'color_compare': ['Absolute Difference'], 'process_count': 2, 'side': 'top', 'brightness': 127.0}
+2025/12/20 06:50:20PM::src.logic.vid_logic.vid_manager_[  INFO  ] - Converted Video to images
+2025/12/20 06:50:20PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Completed partial processing
+2025/12/20 06:50:27PM::src.logic.vid_logic.vid_manager_[  INFO  ] - Completed Image Processing
+2025/12/20 06:50:27PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - The ffmpeg converted join command: -i C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\audio_cache\audio.m4a -r 60.0 -i C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\%01d.png -crf 20 -pix_fmt yuv420p C:/Users/mathe/Desktop/test.mp4
+2025/12/20 06:50:29PM::src.logic.vid_logic.vid_manager_[  INFO  ] - Video Created
+2025/12/20 06:50:30PM::src.logic.vid_logic.vid_manager_[  INFO  ] - Cleaning Cache
+2025/12/20 06:50:30PM::src.logic.vid_logic.vid_manager_[  INFO  ] - Video Conversion Completed!
+2025/12/20 06:50:46PM::src.logic.vid_logic.vid_manager_[  INFO  ] - Cleaned Previous Cache
+2025/12/20 06:50:46PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Video Details:
+2025/12/20 06:50:46PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - FilePath: C:/Users/mathe/Desktop/20703134-hd_1920_1080_30fps.mp4
+2025/12/20 06:50:46PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Output Path: C:/Users/mathe/Desktop/test.mp4
+2025/12/20 06:50:46PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Manupilations: Video To Any Block Video
+2025/12/20 06:50:46PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scale: 1x
+2025/12/20 06:50:46PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Details: {'blocklist': [], 'mode': 'None', 'quality': False, 'frame_rate': 60.0, 'dither': False, 'alternate': False, 'color_set': ['Linear Average'], 'color_compare': ['Absolute Difference'], 'process_count': 2, 'side': 'top', 'brightness': 127.0}
+2025/12/20 06:50:49PM::src.logic.vid_logic.vid_manager_[  INFO  ] - Converted Video to images
+2025/12/20 06:50:50PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Completed partial processing
+2025/12/20 06:51:03PM::src.logic.vid_logic.vid_manager_[  INFO  ] - Completed Image Processing
+2025/12/20 06:51:03PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - The ffmpeg converted join command: -i C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\audio_cache\audio.m4a -r 60.0 -i C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\%01d.png -crf 20 -pix_fmt yuv420p C:/Users/mathe/Desktop/test.mp4
+2025/12/20 06:51:06PM::src.logic.vid_logic.vid_manager_[  INFO  ] - Video Created
+2025/12/20 06:51:06PM::src.logic.vid_logic.vid_manager_[  INFO  ] - Cleaning Cache
+2025/12/20 06:51:06PM::src.logic.vid_logic.vid_manager_[  INFO  ] - Video Conversion Completed!
+2025/12/20 06:53:00PM::root_[WARNING ] - The Program has been closed!

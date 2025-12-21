@@ -1,0 +1,4 @@
+2025/12/20 10:20:44PM::root_[  INFO  ] - This is the log console. Most events that take place will be shown here
+2025/12/20 10:20:44PM::root_[ DEBUG  ] - Multiprocessing freeze_support enabled
+2025/12/20 10:20:44PM::root_[ DEBUG  ] - Window instantiated
+2025/12/20 10:21:11PM::root_[WARNING ] - The Program has been closed!

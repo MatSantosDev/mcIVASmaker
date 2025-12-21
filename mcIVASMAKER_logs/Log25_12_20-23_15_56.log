@@ -1,0 +1,17 @@
+2025/12/20 11:15:56PM::root_[  INFO  ] - This is the log console. Most events that take place will be shown here
+2025/12/20 11:15:56PM::root_[ DEBUG  ] - Multiprocessing freeze_support enabled
+2025/12/20 11:15:56PM::root_[ DEBUG  ] - Window instantiated
+2025/12/20 11:16:32PM::src.logic.vid_logic.vid_manager_[  INFO  ] - Cleaned Previous Cache
+2025/12/20 11:16:32PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Video Details:
+2025/12/20 11:16:32PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - FilePath: C:/Users/mathe/Desktop/20703134-hd_1920_1080_30fps.mp4
+2025/12/20 11:16:32PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Output Path: C:/Users/mathe/Desktop/dfg.mp4
+2025/12/20 11:16:32PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Manupilations: Video To Any Block Video
+2025/12/20 11:16:32PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scale: 1x
+2025/12/20 11:16:32PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Details: {'blocklist': [], 'mode': 'None', 'quality': False, 'frame_rate': 60.0, 'dither': False, 'alternate': False, 'color_set': ['Linear Average'], 'color_compare': ['Absolute Difference'], 'process_count': 2, 'final_width': 2560, 'final_height': 1440, 'side': 'top', 'brightness': 127.0}
+2025/12/20 11:16:34PM::src.logic.vid_logic.ffmpeg_manager_[ DEBUG  ] - Running FFmpeg command: ffmpeg -y -i "C:/Users/mathe/Desktop/20703134-hd_1920_1080_30fps.mp4" -r 60.0 "C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_cache_jpg\file%01d.jpg"
+2025/12/20 11:16:34PM::src.logic.vid_logic.ffmpeg_manager_[ DEBUG  ] - Running FFmpeg command: ffmpeg -y -i "C:/Users/mathe/Desktop/20703134-hd_1920_1080_30fps.mp4" -q:a 0 -map a "C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\audio_cache\audio.m4a"
+2025/12/20 11:16:34PM::src.logic.vid_logic.ffmpeg_manager_[  INFO  ] - FFmpeg completed with return code: 0
+2025/12/20 11:16:35PM::src.logic.vid_logic.ffmpeg_manager_[  INFO  ] - FFmpeg completed with return code: 0
+2025/12/20 11:16:35PM::src.logic.vid_logic.vid_manager_[  INFO  ] - Converted Video to images
+2025/12/20 11:16:41PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Completed partial processing
+2025/12/20 11:19:55PM::root_[WARNING ] - The Program has been closed!

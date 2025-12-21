@@ -1,0 +1,13 @@
+2025/12/20 10:26:01PM::root_[  INFO  ] - This is the log console. Most events that take place will be shown here
+2025/12/20 10:26:01PM::root_[ DEBUG  ] - Multiprocessing freeze_support enabled
+2025/12/20 10:26:01PM::root_[ DEBUG  ] - Window instantiated
+2025/12/20 10:27:13PM::src.logic.vid_logic.vid_manager_[  INFO  ] - Cleaned Previous Cache
+2025/12/20 10:27:13PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Video Details:
+2025/12/20 10:27:13PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - FilePath: C:/Users/mathe/Desktop/20703134-hd_1920_1080_30fps.mp4
+2025/12/20 10:27:13PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Output Path: C:/Users/mathe/Desktop/test.mp4
+2025/12/20 10:27:13PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Manupilations: Video To Any Block Video
+2025/12/20 10:27:13PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scale: 2x
+2025/12/20 10:27:13PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Details: {'blocklist': [], 'mode': 'None', 'quality': False, 'frame_rate': 60.0, 'dither': False, 'alternate': False, 'color_set': ['Linear Average'], 'color_compare': ['Absolute Difference'], 'process_count': 2, 'side': 'top', 'final_width': 2560, 'final_height': 1440, 'brightness': 127.0}
+2025/12/20 10:27:16PM::src.logic.vid_logic.vid_manager_[  INFO  ] - Converted Video to images
+2025/12/20 10:27:17PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Completed partial processing
+2025/12/20 10:27:40PM::root_[WARNING ] - The Program has been closed!

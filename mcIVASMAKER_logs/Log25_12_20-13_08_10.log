@@ -1,0 +1,22 @@
+2025/12/20 01:08:10PM::root_[  INFO  ] - This is the log console. Most events that take place will be shown here
+2025/12/20 01:08:10PM::root_[ DEBUG  ] - Multiprocessing freeze_support enabled
+2025/12/20 01:08:10PM::root_[ DEBUG  ] - Window instantiated
+2025/12/20 01:09:25PM::src.logic.manage_image_tab_[  INFO  ] - Image Conversion
+2025/12/20 01:09:25PM::src.logic.manage_image_tab_[ DEBUG  ] - Video Details:
+2025/12/20 01:09:25PM::src.logic.manage_image_tab_[ DEBUG  ] - FilePath: C:/Users/mathe/Desktop/cropped-Goku.jpg
+2025/12/20 01:09:25PM::src.logic.manage_image_tab_[ DEBUG  ] - Output Path: ./mcIVASMAKER_output/output25_12_20-13_09_25.png
+2025/12/20 01:09:25PM::src.logic.manage_image_tab_[ DEBUG  ] - Manupilations: Image To Any Block Image
+2025/12/20 01:09:25PM::src.logic.manage_image_tab_[ DEBUG  ] - Crop: ['0', '0', 'Max', 'Max']
+2025/12/20 01:09:25PM::src.logic.manage_image_tab_[ DEBUG  ] - Scale: 1x
+2025/12/20 01:09:25PM::src.logic.manage_image_tab_[ DEBUG  ] - Details: {'blocklist': [], 'mode': 'None', 'dither': False, 'alternate': False, 'color_set': ['Linear Average'], 'color_compare': ['Absolute Difference'], 'side': 'top', 'final_width': 2560, 'final_height': 1440, 'brightness': 127.0, 'place_redstone_blocks': False}
+2025/12/20 01:09:27PM::src.logic.manage_image_tab_[  INFO  ] - Done Image!
+2025/12/20 01:09:34PM::src.logic.manage_image_tab_[  INFO  ] - Image Conversion
+2025/12/20 01:09:34PM::src.logic.manage_image_tab_[ DEBUG  ] - Video Details:
+2025/12/20 01:09:34PM::src.logic.manage_image_tab_[ DEBUG  ] - FilePath: C:/Users/mathe/Desktop/cropped-Goku.jpg
+2025/12/20 01:09:34PM::src.logic.manage_image_tab_[ DEBUG  ] - Output Path: C:/Users/mathe/Desktop/gok.png
+2025/12/20 01:09:34PM::src.logic.manage_image_tab_[ DEBUG  ] - Manupilations: Image To Any Block Image
+2025/12/20 01:09:34PM::src.logic.manage_image_tab_[ DEBUG  ] - Crop: ['0', '0', 'Max', 'Max']
+2025/12/20 01:09:34PM::src.logic.manage_image_tab_[ DEBUG  ] - Scale: 1x
+2025/12/20 01:09:34PM::src.logic.manage_image_tab_[ DEBUG  ] - Details: {'blocklist': [], 'mode': 'None', 'dither': False, 'alternate': False, 'color_set': ['Linear Average'], 'color_compare': ['Absolute Difference'], 'side': 'top', 'final_width': 2560, 'final_height': 1440, 'brightness': 127.0, 'place_redstone_blocks': False}
+2025/12/20 01:09:36PM::src.logic.manage_image_tab_[  INFO  ] - Done Image!
+2025/12/20 01:16:40PM::root_[WARNING ] - The Program has been closed!

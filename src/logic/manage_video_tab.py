@@ -167,6 +167,18 @@ def manage_vid_tab(window, event, values):
 
             details['process_count'] = process_count
 
+            # Read optional final resolution inputs
+            final_w = values.get('-Vid_Final_Width-', '')
+            final_h = values.get('-Vid_Final_Height-', '')
+            try:
+                details['final_width'] = int(final_w) if str(final_w).strip() != '' else None
+            except Exception:
+                details['final_width'] = None
+            try:
+                details['final_height'] = int(final_h) if str(final_h).strip() != '' else None
+            except Exception:
+                details['final_height'] = None
+
             scale = values['-Vid_Scale-']
             vid_type = values['-Vid_Type-']
             details['side'] = values['-Vid_Any_Side-'].lower()

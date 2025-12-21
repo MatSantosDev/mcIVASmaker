@@ -1,0 +1,238 @@
+2025/12/20 10:50:21PM::root_[  INFO  ] - This is the log console. Most events that take place will be shown here
+2025/12/20 10:50:21PM::root_[ DEBUG  ] - Multiprocessing freeze_support enabled
+2025/12/20 10:50:21PM::root_[ DEBUG  ] - Window instantiated
+2025/12/20 10:51:07PM::src.logic.vid_logic.vid_manager_[  INFO  ] - Cleaned Previous Cache
+2025/12/20 10:51:07PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Video Details:
+2025/12/20 10:51:07PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - FilePath: C:/Users/mathe/Desktop/20703134-hd_1920_1080_30fps.mp4
+2025/12/20 10:51:07PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Output Path: C:/Users/mathe/Desktop/dg.mp4
+2025/12/20 10:51:07PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Manupilations: Video To Any Block Video
+2025/12/20 10:51:07PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scale: 1x
+2025/12/20 10:51:07PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Details: {'blocklist': [], 'mode': 'None', 'quality': False, 'frame_rate': 60.0, 'dither': False, 'alternate': False, 'color_set': ['Linear Average'], 'color_compare': ['Absolute Difference'], 'process_count': 2, 'force_sequential': False, 'side': 'top', 'final_width': None, 'final_height': None, 'brightness': 127.0}
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[  INFO  ] - Converted Video to images
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Completed partial processing
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Processed file file1.npy.jpg not present in cache folder listing; skipping remove
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Processed file file10.npy.jpg not present in cache folder listing; skipping remove
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Processed file file104.npy.jpg not present in cache folder listing; skipping remove
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Processed file file105.npy.jpg not present in cache folder listing; skipping remove
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Processed file file106.npy.jpg not present in cache folder listing; skipping remove
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Processed file file107.npy.jpg not present in cache folder listing; skipping remove
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Processed file file108.npy.jpg not present in cache folder listing; skipping remove
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Processed file file109.npy.jpg not present in cache folder listing; skipping remove
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Processed file file11.npy.jpg not present in cache folder listing; skipping remove
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Processed file file12.npy.jpg not present in cache folder listing; skipping remove
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Processed file file13.npy.jpg not present in cache folder listing; skipping remove
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Processed file file14.npy.jpg not present in cache folder listing; skipping remove
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[  INFO  ] - Scheduling 198 image tasks (cache_folder=C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_cache_jpg)
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 0: file100.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\100.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 1: file101.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\101.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 2: file102.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\102.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 3: file103.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\103.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 4: file110.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\110.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 5: file111.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\111.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 6: file112.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\112.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 7: file113.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\113.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 8: file114.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\114.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 9: file115.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\115.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 10: file116.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\116.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 11: file117.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\117.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 12: file118.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\118.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 13: file119.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\119.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 14: file120.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\120.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 15: file121.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\121.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 16: file122.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\122.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 17: file123.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\123.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 18: file124.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\124.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 19: file125.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\125.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 20: file126.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\126.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 21: file127.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\127.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 22: file128.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\128.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 23: file129.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\129.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 24: file130.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\130.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 25: file131.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\131.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 26: file132.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\132.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 27: file133.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\133.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 28: file134.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\134.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 29: file135.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\135.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 30: file136.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\136.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 31: file137.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\137.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 32: file138.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\138.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 33: file139.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\139.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 34: file140.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\140.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 35: file141.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\141.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 36: file142.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\142.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 37: file143.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\143.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 38: file144.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\144.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 39: file145.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\145.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 40: file146.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\146.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 41: file147.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\147.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 42: file148.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\148.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 43: file149.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\149.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 44: file15.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\15.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 45: file150.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\150.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 46: file151.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\151.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 47: file152.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\152.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 48: file153.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\153.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 49: file154.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\154.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 50: file155.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\155.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 51: file156.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\156.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 52: file157.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\157.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 53: file158.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\158.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 54: file159.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\159.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 55: file16.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\16.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 56: file160.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\160.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 57: file161.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\161.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 58: file162.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\162.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 59: file163.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\163.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 60: file164.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\164.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 61: file165.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\165.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 62: file166.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\166.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 63: file167.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\167.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 64: file168.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\168.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 65: file169.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\169.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 66: file17.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\17.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 67: file170.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\170.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 68: file171.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\171.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 69: file172.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\172.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 70: file173.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\173.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 71: file174.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\174.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 72: file175.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\175.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 73: file176.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\176.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 74: file177.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\177.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 75: file178.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\178.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 76: file179.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\179.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 77: file18.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\18.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 78: file180.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\180.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 79: file181.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\181.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 80: file182.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\182.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 81: file183.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\183.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 82: file184.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\184.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 83: file185.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\185.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 84: file186.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\186.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 85: file187.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\187.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 86: file188.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\188.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 87: file189.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\189.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 88: file19.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\19.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 89: file190.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\190.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 90: file191.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\191.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 91: file192.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\192.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 92: file193.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\193.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 93: file194.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\194.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 94: file195.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\195.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 95: file196.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\196.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 96: file197.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\197.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 97: file198.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\198.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 98: file199.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\199.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 99: file2.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\2.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 100: file20.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\20.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 101: file200.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\200.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 102: file201.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\201.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 103: file202.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\202.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 104: file203.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\203.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 105: file204.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\204.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 106: file205.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\205.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 107: file206.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\206.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 108: file207.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\207.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 109: file208.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\208.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 110: file209.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\209.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 111: file21.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\21.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 112: file210.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\210.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 113: file22.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\22.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 114: file23.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\23.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 115: file24.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\24.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 116: file25.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\25.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 117: file26.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\26.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 118: file27.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\27.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 119: file28.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\28.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 120: file29.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\29.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 121: file3.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\3.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 122: file30.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\30.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 123: file31.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\31.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 124: file32.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\32.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 125: file33.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\33.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 126: file34.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\34.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 127: file35.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\35.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 128: file36.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\36.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 129: file37.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\37.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 130: file38.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\38.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 131: file39.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\39.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 132: file4.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\4.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 133: file40.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\40.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 134: file41.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\41.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 135: file42.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\42.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 136: file43.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\43.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 137: file44.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\44.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 138: file45.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\45.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 139: file46.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\46.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 140: file47.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\47.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 141: file48.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\48.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 142: file49.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\49.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 143: file5.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\5.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 144: file50.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\50.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 145: file51.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\51.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 146: file52.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\52.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 147: file53.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\53.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 148: file54.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\54.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 149: file55.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\55.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 150: file56.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\56.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 151: file57.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\57.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 152: file58.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\58.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 153: file59.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\59.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 154: file6.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\6.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 155: file60.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\60.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 156: file61.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\61.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 157: file62.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\62.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 158: file63.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\63.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 159: file64.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\64.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 160: file65.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\65.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 161: file66.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\66.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 162: file67.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\67.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 163: file68.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\68.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 164: file69.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\69.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 165: file7.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\7.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 166: file70.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\70.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 167: file71.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\71.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 168: file72.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\72.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 169: file73.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\73.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 170: file74.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\74.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 171: file75.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\75.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 172: file76.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\76.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 173: file77.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\77.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 174: file78.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\78.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 175: file79.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\79.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 176: file8.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\8.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 177: file80.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\80.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 178: file81.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\81.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 179: file82.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\82.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 180: file83.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\83.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 181: file84.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\84.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 182: file85.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\85.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 183: file86.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\86.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 184: file87.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\87.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 185: file88.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\88.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 186: file89.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\89.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 187: file9.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\9.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 188: file90.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\90.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 189: file91.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\91.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 190: file92.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\92.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 191: file93.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\93.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 192: file94.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\94.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 193: file95.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\95.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 194: file96.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\96.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 195: file97.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\97.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 196: file98.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\98.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - Scheduled task 197: file99.jpg -> C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_process_cache\99.png
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[  INFO  ] - Worker started: C:\Users\mathe\Documents\Git\mcIVASmaker\assets\cache\img_cache_jpg\file1.jpg
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - AsyncResult[0] returned: None
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - AsyncResult[1] returned: None
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - AsyncResult[2] returned: None
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - AsyncResult[3] returned: None
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - AsyncResult[4] returned: None
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - AsyncResult[5] returned: None
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - AsyncResult[6] returned: None
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - AsyncResult[7] returned: None
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - AsyncResult[8] returned: None
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - AsyncResult[9] returned: None
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - AsyncResult[10] returned: None
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - AsyncResult[11] returned: None
+2025/12/20 10:51:10PM::src.logic.vid_logic.vid_manager_[ DEBUG  ] - AsyncResult[12] returned: None
+2025/12/20 10:51:15PM::root_[WARNING ] - The Program has been closed!

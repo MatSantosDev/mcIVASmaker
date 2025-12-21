@@ -3,6 +3,9 @@ import os
 import subprocess
 from src.path_manager.pather import resource_path
 import ffmpeg
+import logging
+
+logger = logging.getLogger(__name__)
 
 assets_path = resource_path(f"./assets/cache/")
 
@@ -17,8 +20,18 @@ vid_processed_folder = os.path.normpath(os.path.join(assets_path, "./img_process
 # Runs ffmpeg in a subprocess
 def ffmpeg_runner(options: str):
     full_command = 'ffmpeg -y ' + options
-    output = subprocess.call(full_command, shell=True)
-    return output
+    logger.debug(f"Running FFmpeg command: {full_command}")
+    try:
+        # Use timeout to prevent indefinite hangs; 3600 seconds = 1 hour max per video
+        output = subprocess.call(full_command, shell=True, timeout=3600)
+        logger.info(f"FFmpeg completed with return code: {output}")
+        return output
+    except subprocess.TimeoutExpired:
+        logger.error("FFmpeg process timed out after 3600 seconds")
+        raise
+    except Exception as e:
+        logger.exception(f"FFmpeg process failed: {e}")
+        raise
 
 
 # Does not give the exact frame count

@@ -140,15 +140,21 @@ def vid_manager(window: sg.Window, filepath: str, output: str, manipulation: str
     iter_count = 0
     while True:
         # Updating the progress meters, till the all the processing has been done
-        data = event_queue.get()
-        if data[0] == "-Single_Frame-":
-            window['-Single_Frame-'](data[1])
-        # elif data[0] == "-Image_Done-":
-        #     window.write_event_value((THREAD_KEY, '-Image_Done-'), None)
-        #     img_count += 1
-        #     logger.debug("Processed: " + data[1])
+        try:
+            # Use timeout to prevent indefinite blocking
+            data = event_queue.get(timeout=0.5)
+            if data[0] == "-Single_Frame-":
+                window['-Single_Frame-'](data[1])
+        except Exception as queue_err:
+            # Queue timeout or error — check if all processes are done
+            logger.debug(f"Queue timeout/error: {queue_err}")
+            data = None
 
-        if all([proc.ready() for proc in image_processes]):
+        # Check if all processes are ready (finished)
+        all_ready = all([proc.ready() for proc in image_processes])
+        
+        if all_ready:
+            logger.info(f"All {len(image_processes)} processes are ready/complete")
             break
 
         iter_count += 1
@@ -160,15 +166,20 @@ def vid_manager(window: sg.Window, filepath: str, output: str, manipulation: str
             window['-Number_Of_Frames-'](progress)
             window['-Number_Of_Frames_Text-'](f"{processed_file_count}/{file_count}")
 
+        # Check for worker failures
         if any([not proc.successful() for proc in image_processes if proc.ready()]):
-            logger.error("ERROR!")
+            logger.error("ERROR: One or more worker processes failed!")
             proc_list = [not proc.successful() for proc in image_processes if proc.ready()]
             indices = [i for i, x in enumerate(proc_list) if x]
             for index in indices:
-                logger.error(image_processes[index].get())
-            pass
+                try:
+                    logger.error(image_processes[index].get())
+                except Exception as e:
+                    logger.exception(f"Failed to get result from process {index}: {e}")
+            break
 
     process_pool.join()
+    logger.info("Process pool joined successfully")
 
     # If the processing was very fast, and happened before we caught up with the queue
     # updating the progress meters indicating processing done
@@ -178,6 +189,11 @@ def vid_manager(window: sg.Window, filepath: str, output: str, manipulation: str
 
     window.write_event_value((THREAD_KEY, '-Img_Conversion-'), 1.4)
     logger.info("Completed Image Processing")
+    
+    # List processed frames for debugging
+    processed_files = os.listdir(vid_processed_folder)
+    logger.info(f"Total processed frames: {len(processed_files)}")
+    
     # Creating the ffmpeg run command
     if len(os.listdir(vid_cache_folder_m4a)) > 0:
         re_options = (
@@ -192,9 +208,13 @@ def vid_manager(window: sg.Window, filepath: str, output: str, manipulation: str
             f"-crf 20 -pix_fmt yuv420p {output}"
         )
     logger.debug("The ffmpeg converted join command: " + re_options)
-    ffmpeg_manager.ffmpeg_runner(
-        re_options
-    )
+    logger.info("Starting FFmpeg re-encoding...")
+    try:
+        ffmpeg_manager.ffmpeg_runner(re_options)
+        logger.info("FFmpeg re-encoding completed successfully")
+    except Exception as e:
+        logger.exception(f"FFmpeg re-encoding failed: {e}")
+        raise
     window.write_event_value((THREAD_KEY, '-Img_Conversion-'), 1.8)
     logger.info("Video Created")
     # Cleaning up the cache folders

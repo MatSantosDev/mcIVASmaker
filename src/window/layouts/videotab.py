@@ -160,6 +160,12 @@ def get_video_tab():
             sg.Input(enable_events=True, key="-Vid_Output_Path-", size=30),
             sg.FileSaveAs("Save as", file_types=(("Video Files", "*.mp4"),))
         ],
+        [
+            sg.Text("Final Resolution (optional): "),
+            sg.Input(key='-Vid_Final_Width-', size=6, tooltip='Final output width in pixels', enable_events=True),
+            sg.Text('x', pad=(2, 0)),
+            sg.Input(key='-Vid_Final_Height-', size=6, tooltip='Final output height in pixels', enable_events=True)
+        ],
         [sg.Text("Advance Options ∧", key="-Advance_Dropdown-", enable_events=True)],
         [
             sg.Column([

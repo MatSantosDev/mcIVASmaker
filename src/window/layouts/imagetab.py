@@ -184,6 +184,12 @@ def get_image_tab(window_size: list[int]):
                           )
         ],
         [
+            sg.Text("Final Resolution (optional): "),
+            sg.Input(key='-Img_Final_Width-', size=6, tooltip='Final output width in pixels', enable_events=True),
+            sg.Text('x', pad=(2, 0)),
+            sg.Input(key='-Img_Final_Height-', size=6, tooltip='Final output height in pixels', enable_events=True)
+        ],
+        [
             sg.Button("Run", key="-Img_Run-")
         ],
         [

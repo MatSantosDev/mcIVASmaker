@@ -197,6 +197,18 @@ def manage_img_tab(window, event, values):
             'color_compare': values['-Comparison_Method-']
         }
 
+        # Read optional final resolution inputs
+        final_w = values.get('-Img_Final_Width-', '')
+        final_h = values.get('-Img_Final_Height-', '')
+        try:
+            details['final_width'] = int(final_w) if str(final_w).strip() != '' else None
+        except Exception:
+            details['final_width'] = None
+        try:
+            details['final_height'] = int(final_h) if str(final_h).strip() != '' else None
+        except Exception:
+            details['final_height'] = None
+
         scale = values['-Img_Scale-']
 
         details['side'] = values['-Img_Any_Side-'].lower()
